@@ -21,7 +21,7 @@ export const StyledWrapper = styled.div`
   .character {
     position: absolute;
     bottom: 20px;
-    height: 350px;
+    height: 300px;
 
     img {
       height: 100%;
@@ -31,8 +31,8 @@ export const StyledWrapper = styled.div`
   }
 
   .character-one {
-    bottom: 80px;
-    left: 22%;
+    bottom: 100px;
+    left: 19%;
     animation: characterBounce 8s infinite;
   }
 
