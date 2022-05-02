@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import About from "../../components/About/About";
+import RoadMap from "../../components/RoadMap/RoadMap";
 import { StyledWrapper, StyledContent } from "./styles";
 
 import rays from "../../assets/images/lightrays.png";
@@ -33,6 +34,7 @@ const Home = () => {
         </div>
       </StyledWrapper>
       <About />
+      <RoadMap />
     </>
   );
 };
