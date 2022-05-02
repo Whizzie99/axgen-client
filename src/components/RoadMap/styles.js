@@ -18,6 +18,16 @@ export const StyledRoadMapSection = styled.div`
 
       .road-map-left {
         width: 50%;
+
+        .road-map-description {
+          p {
+            font-style: italic;
+
+            b {
+              font-weight: 800;
+            }
+          }
+        }
       }
 
       .road-map-right {
