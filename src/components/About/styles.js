@@ -14,13 +14,13 @@ export const StyledContent = styled.div`
     width: 50%;
 
     h1 {
-      font-size: 3em;
+      font-size: 2.8em;
       text-transform: uppercase;
       line-height: 1.5;
     }
 
     p {
-      font-size: 1.1em;
+      font-size: 1em;
       font-style: italic;
       margin-top: 10px;
       line-height: 1.5;
