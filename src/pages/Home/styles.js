@@ -14,7 +14,7 @@ export const StyledWrapper = styled.div`
     top: 0;
     left: 0;
     height: 100%;
-    transform: translateX(15%);
+    transform: translateX(30%);
     object-fit: contain;
   }
 
