@@ -14,14 +14,14 @@ export const StyledWrapper = styled.div`
     top: 0;
     left: 0;
     height: 100%;
-    transform: translateX(15%);
+    transform: translateX(30%);
     object-fit: contain;
   }
 
   .character {
     position: absolute;
-    bottom: 20px;
-    height: 350px;
+    bottom: -10px;
+    height: 230px;
 
     img {
       height: 100%;
@@ -31,7 +31,7 @@ export const StyledWrapper = styled.div`
   }
 
   .character-one {
-    bottom: 80px;
+    bottom: 30px;
     left: 22%;
     animation: characterBounce 8s infinite;
   }
@@ -43,7 +43,7 @@ export const StyledWrapper = styled.div`
   }
 
   .character-three {
-    bottom: 80px;
+    bottom: 30px;
     right: 22%;
     animation: characterBounce 16s infinite;
   }
@@ -61,9 +61,9 @@ export const StyledContent = styled.div`
   h1 {
     color: var(--white);
     text-transform: uppercase;
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 700;
-    margin-top: 20%;
+    margin-top: 15%;
     letter-spacing: 0.06em;
     text-shadow: var(--text-shadow);
     text-align: center;
