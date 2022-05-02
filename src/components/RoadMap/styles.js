@@ -61,7 +61,26 @@ export const StyledRoadMapSection = styled.div`
     }
 
     .road-map-item:nth-child(2) .road-map-bubble {
+      animation: characterBounce 10s infinite;
+    }
+
+    .road-map-item:nth-child(3) .road-map-bubble {
       animation: characterBounce 12s infinite;
+    }
+
+    .road-map-item:nth-child(4) .road-map-bubble {
+      animation: characterBounce 15s infinite;
+    }
+    .road-map-item:nth-child(5) .road-map-bubble {
+      animation: characterBounce 5s infinite;
+    }
+
+    .road-map-item:nth-child(6) .road-map-bubble {
+      animation: characterBounce 11s infinite;
+    }
+
+    .road-map-item:nth-child(7) .road-map-bubble {
+      animation: characterBounce 14s infinite;
     }
 
     /* .road-map-2 .road-map-left,  {
