@@ -26,12 +26,24 @@ export const StyledWrapper = styled.div`
     position: absolute;
     left: 0;
     bottom: 0;
+    height: 85%;
+
+    img {
+      height: 100%;
+      object-fit: contain;
+    }
   }
 
   .right-map-flower {
     position: absolute;
     right: 0;
     bottom: 0;
+    height: 85%;
+
+    img {
+      height: 100%;
+      object-fit: contain;
+    }
   }
 `;
 
