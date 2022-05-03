@@ -88,7 +88,7 @@ export const StyledRoadMapSection = styled.div`
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-size: 2.5em;
+            font-size: 4em;
             z-index: 1;
           }
         }
