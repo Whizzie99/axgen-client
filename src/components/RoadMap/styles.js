@@ -1,12 +1,43 @@
 import styled from "styled-components";
+import bgImg from "../../assets/images/under_sea.png";
 
 export const StyledWrapper = styled.div`
+  position: relative;
   padding: 50px 0;
+  /* background-image: url(${bgImg});
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
   background: var(--purple);
   color: var(--white);
+
+  .under-sea-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .left-map-flower {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  .right-map-flower {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
 `;
 
 export const StyledRoadMapSection = styled.div`
+  position: relative;
+  z-index: 2;
   .road-map {
     width: 80%;
     padding: 100px 0;

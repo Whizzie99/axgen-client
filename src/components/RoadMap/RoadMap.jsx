@@ -10,6 +10,10 @@ import bubble5 from "../../assets/images/bubbles/5.png";
 import bubble6 from "../../assets/images/bubbles/6.png";
 import bubble7 from "../../assets/images/bubbles/7.png";
 
+import underSeaImg from "../../assets/images/under_sea.png";
+import leftFlowerImg from "../../assets/images/left_map_flower.png";
+import rightFlowerImg from "../../assets/images/right_map_flower.png";
+
 const RoadMap = () => {
   return (
     <StyledWrapper>
@@ -148,6 +152,15 @@ const RoadMap = () => {
           </div>
         </StyledRoadMapSection>
       </Container>
+      <div className="under-sea-img">
+        <img src={underSeaImg} alt="" />
+      </div>
+      <div className="left-map-flower">
+        <img src={leftFlowerImg} alt="" />
+      </div>
+      <div className="right-map-flower">
+        <img src={rightFlowerImg} alt="" />
+      </div>
     </StyledWrapper>
   );
 };
