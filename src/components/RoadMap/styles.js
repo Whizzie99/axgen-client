@@ -26,12 +26,24 @@ export const StyledWrapper = styled.div`
     position: absolute;
     left: 0;
     bottom: 0;
+    height: 85%;
+
+    img {
+      height: 100%;
+      object-fit: contain;
+    }
   }
 
   .right-map-flower {
     position: absolute;
     right: 0;
     bottom: 0;
+    height: 85%;
+
+    img {
+      height: 100%;
+      object-fit: contain;
+    }
   }
 `;
 
@@ -76,7 +88,7 @@ export const StyledRoadMapSection = styled.div`
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-size: 2.5em;
+            font-size: 4em;
             z-index: 1;
           }
         }
