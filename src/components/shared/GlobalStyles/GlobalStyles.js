@@ -5,10 +5,13 @@ export const GlobalStyles = createGlobalStyle`
   :root{
     --font-stack: 'Exo 2', sans-serif;
     --blue: #0282EA;
+    --blue-2: #1b0d4d;
     --purple: #2F1967;
     --white: #fff;
     --black: #000;
     --blue-gradient: linear-gradient(180deg, #1945B3 0%, #00A7FF 100%);
+    --blue-gradient-2: linear-gradient(180deg, rgba(92, 45, 144, 0.8) 0%, rgba(23, 14, 91, 0.8) 100%);
+    --purple-gradient-1: linear-gradient(180deg, #3F1461 0%, #341958 53.12%, #231660 100%);
     --text-shadow: 4px 3px 0px #2F1967;
   }
 

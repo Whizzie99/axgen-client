@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const StyledWrapper = styled.div`
-  background: var(--purple);
+  /* background: var(--purple); */
   padding: 80px 0;
   padding-bottom: 150px;
+  background: transparent;
 `;
 
 export const StyledContent = styled.div`

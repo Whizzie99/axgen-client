@@ -18,6 +18,11 @@ export const StyledNav = styled.div`
   .nav-left {
     display: flex;
     align-items: center;
+
+    .logo {
+      margin-right: 50px;
+    }
+
     ul {
       display: flex;
       list-style: none;
