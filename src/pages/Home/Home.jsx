@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 import About from "../../components/About/About";
 import RoadMap from "../../components/RoadMap/RoadMap";
 import Utility from "../../components/Utility/Utility";
-import { StyledWrapper, StyledContent } from "./styles";
+import { StyledWrapper, StyledContent, StyledCustomBg } from "./styles";
 
 import rays from "../../assets/images/lightrays.png";
-import characterOne from "../../assets/characters/1.png";
+import characterOne from "../../assets/characters/4.png";
 import characterTwo from "../../assets/characters/2.png";
 import characterThree from "../../assets/characters/3.png";
 import Faq from "../../components/Faq/Faq";
@@ -35,8 +35,10 @@ const Home = () => {
           <img src={characterThree} alt="" />
         </div>
       </StyledWrapper>
-      <About />
-      <RoadMap />
+      <StyledCustomBg className="custom-bg">
+        <About />
+        <RoadMap />
+      </StyledCustomBg>
       <Utility />
       <Faq />
     </>

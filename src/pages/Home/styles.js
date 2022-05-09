@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import bgImg from "../../assets/images/home_bg.png";
+import aboutBg from "../../assets/images/about_section.png";
 
 export const StyledWrapper = styled.div`
   position: relative;
@@ -92,4 +93,11 @@ export const StyledContent = styled.div`
       border-radius: 20px;
     }
   }
+`;
+
+export const StyledCustomBg = styled.div`
+  background: url(${aboutBg}) !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 `;

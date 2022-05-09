@@ -8,7 +8,8 @@ export const StyledWrapper = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
-  background: var(--purple);
+  /* background: var(--purple); */
+  background: transparent;
   color: var(--white);
 
   .under-sea-img {

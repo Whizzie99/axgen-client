@@ -16,6 +16,7 @@ export const StyledFaqItem = styled.div`
   /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
   border-radius: 50px;
   margin: 20px 0;
+  height: auto;
   transition: all 0.3s ease;
 
   .faq-top {
