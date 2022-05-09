@@ -8,6 +8,7 @@ import rays from "../../assets/images/lightrays.png";
 import characterOne from "../../assets/characters/1.png";
 import characterTwo from "../../assets/characters/2.png";
 import characterThree from "../../assets/characters/3.png";
+import Faq from "../../components/Faq/Faq";
 
 const Home = () => {
   return (
@@ -37,6 +38,7 @@ const Home = () => {
       <About />
       <RoadMap />
       <Utility />
+      <Faq />
     </>
   );
 };
