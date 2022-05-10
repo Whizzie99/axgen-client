@@ -21,9 +21,14 @@ const Utility = () => {
             <Swiper
               modules={[Navigation]}
               spaceBetween={30}
-              slidesPerView={3}
+              slidesPerView={1}
               navigation={true}
               loop={true}
+              breakpoints={{
+                1200: {
+                  slidesPerView: 3,
+                },
+              }}
             >
               {utilities.map((utility, i) => (
                 <SwiperSlide key={i}>

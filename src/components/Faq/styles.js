@@ -2,12 +2,20 @@ import styled from "styled-components";
 
 export const StyledWrapper = styled.div`
   background: var(--purple-gradient-1);
-  padding: 50px;
+  padding: 20px;
+
+  @media screen and (min-width: 1200px) {
+    padding: 50px;
+  }
 `;
 
 export const StyledFaq = styled.div`
   margin: 50px auto;
-  width: 80%;
+  /* width: 80%; */
+
+  @media screen and (min-width: 1200px) {
+    width: 80%;
+  }
 `;
 
 export const StyledFaqItem = styled.div`
