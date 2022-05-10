@@ -46,6 +46,77 @@ export const StyledWrapper = styled.div`
       object-fit: contain;
     }
   }
+
+  .bubble-section {
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      object-fit: contain;
+    }
+
+    .bubble-one {
+      left: 55%;
+      height: 55px;
+      width: 55px;
+    }
+
+    .bubble-two {
+      top: 80%;
+      left: 60%;
+      height: 15px;
+      width: 15px;
+    }
+
+    .bubble-three {
+      top: 70%;
+      left: 45%;
+      height: 60px;
+      width: 60px;
+    }
+
+    .bubble-four {
+      top: 56%;
+      left: 24%;
+      height: 30px;
+      width: 30px;
+    }
+
+    .bubble-five {
+      top: 62%;
+      left: 35%;
+    }
+
+    .bubble-seven {
+      top: 75%;
+      left: 87%;
+    }
+
+    .bubble-eight {
+      top: 10%;
+      left: 87%;
+    }
+
+    .bubble-nine {
+      top: 25%;
+      left: 45%;
+    }
+
+    .bubble-ten {
+      top: 35%;
+      left: 22%;
+    }
+
+    .bubble-eleven {
+      top: 40%;
+      left: 75%;
+    }
+
+    .bubble-twelve {
+      top: 35%;
+      left: 15%;
+    }
+  }
 `;
 
 export const StyledRoadMapSection = styled.div`

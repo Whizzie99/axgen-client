@@ -48,7 +48,7 @@ const About = () => {
       repeat: -1,
       repeatDelay: 1.8,
     });
-  });
+  }, []);
 
   return (
     <StyledWrapper>
