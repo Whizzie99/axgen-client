@@ -123,16 +123,18 @@ export const StyledRoadMapSection = styled.div`
   position: relative;
   z-index: 2;
   .road-map {
-    width: 80%;
+    /* width: 80%; */
     padding: 100px 0;
     margin: 0 auto;
 
     .road-map-item {
       display: flex;
+      flex-direction: column;
       align-items: center;
+      margin: 15px 0;
 
       .road-map-left {
-        width: 50%;
+        /* width: 50%; */
 
         .road-map-description {
           p {
@@ -149,7 +151,7 @@ export const StyledRoadMapSection = styled.div`
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 50%;
+        /* width: 50%; */
 
         .road-map-bubble {
           position: relative;
@@ -201,5 +203,28 @@ export const StyledRoadMapSection = styled.div`
     /* .road-map-2 .road-map-left,  {
       order: 1;
     } */
+  }
+
+  @media screen and (max-width: 767px) {
+    .road-map-item .road-map-left {
+      order: 1;
+      margin-bottom: 15px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .road-map {
+      width: 80%;
+
+      .road-map-item {
+        flex-direction: row;
+        align-items: center;
+
+        .road-map-left,
+        .road-map-right {
+          width: 50%;
+        }
+      }
+    }
   }
 `;

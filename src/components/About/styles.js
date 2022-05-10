@@ -66,12 +66,12 @@ export const StyledWrapper = styled.div`
 
 export const StyledContent = styled.div`
   position: relative;
-  display: flex;
+  /* display: flex; */
   color: var(--white);
   z-index: 5;
 
   .left-content {
-    width: 50%;
+    /* width: 50%; */
 
     h1 {
       font-size: 2.8em;
@@ -88,6 +88,15 @@ export const StyledContent = styled.div`
   }
 
   .right-content {
-    width: 50%;
+    /* width: 50%; */
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+
+    .left-content,
+    .right-content {
+      width: 50%;
+    }
   }
 `;
