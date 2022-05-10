@@ -48,6 +48,86 @@ export const StyledWrapper = styled.div`
     right: 22%;
     animation: characterBounce 16s infinite;
   }
+
+  /* .floating-bubbles-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    img {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      left: 50%;
+    }
+  } */
+
+  .floating-bubbles-section {
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      object-fit: contain;
+    }
+
+    .bubble-one {
+      top: 50%;
+      left: 55%;
+    }
+
+    .bubble-two {
+      top: 40%;
+      left: 60%;
+    }
+
+    .bubble-three {
+      top: 30%;
+      left: 20%;
+    }
+
+    .bubble-four {
+      left: 25%;
+      height: 15px;
+      width: 15px;
+    }
+
+    .bubble-five {
+      left: 35%;
+    }
+
+    .bubble-six {
+      left: 45%;
+      top: 25%;
+    }
+
+    .bubble-seven {
+      top: 35%;
+      left: 40%;
+      height: 10px;
+      width: 10px;
+    }
+
+    .bubble-eight {
+      top: 15%;
+      left: 48%;
+    }
+
+    .bubble-nine {
+      top: 23%;
+      left: 60%;
+      height: 30px;
+      width: 30px;
+    }
+
+    .bubble-ten {
+      top: 30%;
+      left: 70%;
+      height: 25px;
+      width: 25px;
+    }
+  }
 `;
 
 export const StyledContent = styled.div`
