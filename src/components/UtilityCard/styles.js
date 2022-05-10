@@ -3,13 +3,15 @@ import styled from "styled-components";
 export const StyledCard = styled.div`
   position: relative;
   /* padding: 15px; */
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(2px);
   height: 280px;
   border-radius: 20px;
-  border: 0.2rem solid #fff;
-  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 0.5rem #bc13fe,
-    0 0 0.3rem #bc13fe, 0 0 0.3rem #bc13fe, inset 0 0 0.3rem #bc13fe;
+  border: 0.1rem solid #fff;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 0.3rem #bc13fe,
+    0 0 0.8rem #bc13fe, 0 0 0.8rem #bc13fe, inset 0 0 0.8rem #bc13fe;
+  /* box-shadow: 0 0 0.8rem #fff, 0 0 0.5rem #fff, 0 0 0.8rem #bc13fe,
+    0 0 0.8rem #bc13fe, 0 0 0.8rem #bc13fe, inset 0 0 0.5rem #bc13fe; */
   /* z-index: 2; */
   /* border-color: #ebc1e6; */
   /* box-shadow: 0 0 5px rgba(235, 193, 230, 0.6),
@@ -21,11 +23,15 @@ export const StyledCard = styled.div`
     align-items: center;
     height: 170px;
     width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 
     img {
       height: 150px;
       width: 150px;
       object-fit: contain;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
     }
   }
 
@@ -41,20 +47,20 @@ export const StyledCard = styled.div`
       /* padding-bottom: 0; */
       color: var(--white);
       font-weight: 400;
-      font-size: 1.3em;
+      font-size: 1.2em;
       letter-spacing: 2px;
     }
 
     .card-description {
       position: absolute;
-      bottom: -100%;
+      bottom: -200%;
       left: 0;
       width: 100%;
       padding: 20px 15px;
       padding-top: 25px;
       color: var(--white);
       font-weight: 200;
-      font-size: 0.9em;
+      font-size: 0.8em;
       line-height: 1.5;
       background: linear-gradient(
         180deg,

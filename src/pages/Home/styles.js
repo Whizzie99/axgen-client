@@ -38,12 +38,12 @@ export const StyledWrapper = styled.div`
     display: none;
     bottom: 45px;
     left: 22%;
-    animation: characterBounce 8s infinite;
+    /* animation: characterBounce 8s infinite; */
   }
 
   .character-two {
     left: 25%;
-    animation: characterBounce 14s infinite;
+    /* animation: characterBounce 14s infinite; */
     /* bottom: 100px; */
   }
 
@@ -51,7 +51,13 @@ export const StyledWrapper = styled.div`
     display: none;
     bottom: 45px;
     right: 22%;
-    animation: characterBounce 16s infinite;
+    /* animation: characterBounce 16s infinite; */
+  }
+
+  .character-one:hover,
+  .character-two:hover,
+  .character-three:hover {
+    animation: characterBounce 3s infinite;
   }
 
   .arc-img {
@@ -68,7 +74,7 @@ export const StyledWrapper = styled.div`
   .floating-bubbles-section {
     img {
       position: absolute;
-      top: 50%;
+      top: 65% !important;
       left: 50%;
       object-fit: contain;
     }
@@ -135,7 +141,7 @@ export const StyledWrapper = styled.div`
 
     .character-two {
       left: 40%;
-      animation: characterBounce 14s infinite;
+      /* animation: characterBounce 14s infinite; */
       /* bottom: 100px; */
     }
 
