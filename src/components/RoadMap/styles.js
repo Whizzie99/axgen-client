@@ -28,6 +28,7 @@ export const StyledWrapper = styled.div`
     left: 0;
     bottom: 0;
     height: 85%;
+    z-index: 1;
 
     img {
       height: 100%;
@@ -40,11 +41,49 @@ export const StyledWrapper = styled.div`
     right: 0;
     bottom: 0;
     height: 85%;
+    z-index: 1;
 
     img {
       height: 100%;
       object-fit: contain;
     }
+  }
+
+  .school-of-fishes-left {
+    position: absolute;
+    top: 30%;
+    left: 0;
+  }
+
+  .school-of-fishes-right {
+    position: absolute;
+    top: 15%;
+    right: 0;
+  }
+
+  .horse-fish-one {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+  }
+
+  .jelly-fish-one {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+  }
+
+  .jelly-fish-two {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: rotate(20deg);
+  }
+
+  .horse-fish-two {
+    position: absolute;
+    top: 30%;
+    right: 10%;
   }
 
   .bubble-section {
@@ -174,30 +213,30 @@ export const StyledRoadMapSection = styled.div`
     }
 
     .road-map-item:nth-child(1) .road-map-bubble {
-      animation: characterBounce 8s infinite;
+      animation: characterBounce 5s infinite;
     }
 
     .road-map-item:nth-child(2) .road-map-bubble {
-      animation: characterBounce 10s infinite;
+      animation: characterBounce 6s infinite;
     }
 
     .road-map-item:nth-child(3) .road-map-bubble {
-      animation: characterBounce 12s infinite;
+      animation: characterBounce 4s infinite;
     }
 
     .road-map-item:nth-child(4) .road-map-bubble {
-      animation: characterBounce 15s infinite;
+      animation: characterBounce 2.5s infinite;
     }
     .road-map-item:nth-child(5) .road-map-bubble {
       animation: characterBounce 5s infinite;
     }
 
     .road-map-item:nth-child(6) .road-map-bubble {
-      animation: characterBounce 11s infinite;
+      animation: characterBounce 3s infinite;
     }
 
     .road-map-item:nth-child(7) .road-map-bubble {
-      animation: characterBounce 14s infinite;
+      animation: characterBounce 4s infinite;
     }
 
     /* .road-map-2 .road-map-left,  {

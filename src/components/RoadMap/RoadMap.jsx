@@ -15,6 +15,9 @@ import bubble7 from "../../assets/images/bubbles/7.png";
 import underSeaImg from "../../assets/images/under_sea.png";
 import leftFlowerImg from "../../assets/images/left_map_flower.png";
 import rightFlowerImg from "../../assets/images/right_map_flower.png";
+import fishes from "../../assets/images/school_of_fish.png";
+import horseFish from "../../assets/images/horse_fish.png";
+import jelly from "../../assets/images/j_fish.png";
 
 import bubble from "../../assets/images/bubbles/hero_bubble.png";
 
@@ -221,6 +224,25 @@ const RoadMap = () => {
       </div>
       <div className="right-map-flower">
         <img src={rightFlowerImg} alt="" />
+      </div>
+      <div className="school-of-fishes-left">
+        <img src={fishes} alt="" />
+      </div>
+      <div className="school-of-fishes-right">
+        <img src={fishes} alt="" />
+      </div>
+      <div className="horse-fish-one">
+        <img src={horseFish} alt="" />
+      </div>
+      <div className="horse-fish-two">
+        <img src={horseFish} alt="" />
+      </div>
+
+      <div className="jelly-fish-one">
+        <img src={jelly} alt="" />
+      </div>
+      <div className="jelly-fish-two">
+        <img src={jelly} alt="" />
       </div>
       <div className="bubble-section">
         <img src={bubble} ref={ref1} alt="" className="bubble-one" />

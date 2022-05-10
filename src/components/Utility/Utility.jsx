@@ -26,7 +26,7 @@ const Utility = () => {
               loop={true}
               breakpoints={{
                 1200: {
-                  slidesPerView: 3,
+                  slidesPerView: 4,
                 },
               }}
             >

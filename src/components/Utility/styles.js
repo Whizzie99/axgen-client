@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledWrapper = styled.div`
   position: relative;
-  padding: 150px 0;
+  padding: 100px 0;
   background: var(--blue-2);
 
   .under-water-decor {
@@ -27,7 +27,12 @@ export const StyledUtilities = styled.div`
 
 export const StyledCarousel = styled.div`
   margin: 50px 0;
+  margin-top: 150px;
   padding: 30px 0;
+
+  .swiper-slide {
+    border-radius: 20px;
+  }
   /* padding: 100px; */
 
   /* .swiper-slide {

@@ -48,7 +48,7 @@ const Home = () => {
     ];
 
     gsap.to(bubbleSet1, 5, {
-      y: -300,
+      y: -400,
       delay: 1,
       ease: "none",
       opacity: 0,
@@ -57,7 +57,7 @@ const Home = () => {
     });
 
     gsap.to(bubbleSet2, 7, {
-      y: -250,
+      y: -300,
       delay: 1.6,
       ease: "none",
       opacity: 0,
@@ -66,7 +66,7 @@ const Home = () => {
     });
 
     gsap.to(bubbleSet3, 10, {
-      y: -300,
+      y: -260,
       delay: 1.9,
       ease: "none",
       opacity: 0,
