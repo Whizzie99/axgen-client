@@ -21,7 +21,7 @@ export const StyledWrapper = styled.div`
 
   .character {
     position: absolute;
-    bottom: -10px;
+    bottom: 20px;
     height: 230px;
 
     img {
@@ -32,7 +32,7 @@ export const StyledWrapper = styled.div`
   }
 
   .character-one {
-    bottom: 30px;
+    bottom: 45px;
     left: 22%;
     animation: characterBounce 8s infinite;
   }
@@ -44,25 +44,21 @@ export const StyledWrapper = styled.div`
   }
 
   .character-three {
-    bottom: 30px;
+    bottom: 45px;
     right: 22%;
     animation: characterBounce 16s infinite;
   }
 
-  /* .floating-bubbles-section {
+  .arc-img {
     position: absolute;
-    top: 0;
+    bottom: -40px;
     left: 0;
-    height: 100%;
     width: 100%;
-    z-index: 1;
+
     img {
-      position: absolute;
-      left: 0;
-      top: 50%;
-      left: 50%;
+      width: 100%;
     }
-  } */
+  }
 
   .floating-bubbles-section {
     img {
@@ -176,8 +172,9 @@ export const StyledContent = styled.div`
 `;
 
 export const StyledCustomBg = styled.div`
-  background: url(${aboutBg}) !important;
+  /* background: url(${aboutBg}) !important;
   background-position: center !important;
   background-size: cover !important;
-  background-repeat: no-repeat !important;
+  background-repeat: no-repeat !important; */
+  background: linear-gradient(180deg, #21165f 0.21%, #53217a 63%);
 `;

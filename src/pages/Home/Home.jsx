@@ -12,6 +12,7 @@ import characterOne from "../../assets/characters/4.png";
 import characterTwo from "../../assets/characters/2.png";
 import characterThree from "../../assets/characters/3.png";
 import bubble from "../../assets/images/bubbles/hero_bubble.png";
+import arcImg from "../../assets/images/arc.png";
 import { useEffect } from "react";
 
 const Home = () => {
@@ -95,6 +96,9 @@ const Home = () => {
         </div>
         <div className="character character-three">
           <img src={characterThree} alt="" />
+        </div>
+        <div className="arc-img">
+          <img src={arcImg} alt="" />
         </div>
         <div className="floating-bubbles-section">
           <img src={bubble} ref={bubble1Ref} alt="" className="bubble-one" />

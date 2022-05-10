@@ -3,6 +3,7 @@ import { Navigation } from "swiper";
 import UtilityCard from "../UtilityCard/UtilityCard";
 import Container from "../shared/Container/Container";
 import SectionTitle from "../shared/SectionTitle/SectionTitle";
+import { utilities } from "../../data/utilities";
 // swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -19,26 +20,20 @@ const Utility = () => {
           <StyledCarousel>
             <Swiper
               modules={[Navigation]}
-              spaceBetween={20}
-              slidesPerView={4}
+              spaceBetween={30}
+              slidesPerView={3}
               navigation={true}
               loop={true}
             >
-              <SwiperSlide>
-                <UtilityCard />
-              </SwiperSlide>
-              <SwiperSlide>
-                <UtilityCard />
-              </SwiperSlide>
-              <SwiperSlide>
-                <UtilityCard />
-              </SwiperSlide>
-              <SwiperSlide>
-                <UtilityCard />
-              </SwiperSlide>
-              <SwiperSlide>
-                <UtilityCard />
-              </SwiperSlide>
+              {utilities.map((utility, i) => (
+                <SwiperSlide key={i}>
+                  <UtilityCard
+                    title={utility.title}
+                    description={utility.description}
+                    img={utility.image}
+                  />
+                </SwiperSlide>
+              ))}
             </Swiper>
           </StyledCarousel>
         </StyledUtilities>
