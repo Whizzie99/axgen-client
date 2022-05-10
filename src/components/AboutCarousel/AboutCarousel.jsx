@@ -19,6 +19,15 @@ const AboutCarousel = () => {
         loop
         showDots={true}
         hideArrow={true}
+        responsiveLayout={[
+          {
+            breakpoint: 767,
+            cols: 1,
+            rows: 1,
+            gap: 0,
+          },
+        ]}
+        mobileBreakpoint={767}
       >
         {carouselImageArray.map((image, i) => (
           <Carousel.Item key={i}>

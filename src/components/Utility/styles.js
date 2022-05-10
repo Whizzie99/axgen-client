@@ -27,7 +27,7 @@ export const StyledUtilities = styled.div`
 
 export const StyledCarousel = styled.div`
   margin: 50px 0;
-  padding: 20px 0;
+  padding: 30px 0;
   /* padding: 100px; */
 
   /* .swiper-slide {
