@@ -62,12 +62,16 @@ export const StyledWrapper = styled.div`
 
   .arc-img {
     position: absolute;
-    bottom: -40px;
+    bottom: -50px;
     left: 0;
     width: 100%;
+    height: 100px;
+    z-index: 998;
 
     img {
       width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
 
