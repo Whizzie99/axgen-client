@@ -17,6 +17,12 @@ export const StyledFooter = styled.div`
     font-size: 0.9em;
   }
 
+  .footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .social-handles {
     display: flex;
     align-items: center;
