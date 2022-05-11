@@ -13,6 +13,15 @@ export const StyledWrapper = styled.div`
   height: 100vh;
   /* overflow: hidden; */
 
+  .light-rays {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transform: translateX(30%);
+    object-fit: contain;
+  }
+
   .floor-img {
     position: absolute;
     bottom: -35%;
@@ -26,15 +35,82 @@ export const StyledWrapper = styled.div`
       object-fit: cover;
     }
   }
+
+  .floating-bubbles-section {
+    img {
+      position: absolute;
+      top: 65% !important;
+      left: 50%;
+      object-fit: contain;
+    }
+
+    .bubble-one {
+      top: 50%;
+      left: 55%;
+    }
+
+    .bubble-two {
+      top: 40%;
+      left: 60%;
+    }
+
+    .bubble-three {
+      top: 30%;
+      left: 20%;
+    }
+
+    .bubble-four {
+      left: 25%;
+      height: 15px;
+      width: 15px;
+    }
+
+    .bubble-five {
+      left: 35%;
+    }
+
+    .bubble-six {
+      left: 45%;
+      top: 25%;
+    }
+
+    .bubble-seven {
+      top: 35%;
+      left: 40%;
+      height: 10px;
+      width: 10px;
+    }
+
+    .bubble-eight {
+      top: 15%;
+      left: 48%;
+    }
+
+    .bubble-nine {
+      top: 23%;
+      left: 60%;
+      height: 30px;
+      width: 30px;
+    }
+
+    .bubble-ten {
+      top: 30%;
+      left: 70%;
+      height: 25px;
+      width: 25px;
+    }
+  }
 `;
 
 export const StyledContent = styled.div`
+  position: relative;
+  z-index: 2;
   h1 {
     color: var(--white);
     text-transform: uppercase;
     font-size: 4em;
     font-weight: 700;
-    margin-top: 20%;
+    margin-top: 15%;
     letter-spacing: 0.06em;
     text-shadow: var(--text-shadow);
     text-align: center;
@@ -51,7 +127,7 @@ export const StyledContent = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
 
     a {
       padding: 15px 20px;
@@ -68,7 +144,7 @@ export const StyledContent = styled.div`
 export const StyledMintSection = styled.div`
   display: flex;
   width: 700px;
-  margin-top: 50px;
+  margin-top: 70px;
 
   .mint-left-section {
     display: flex;
@@ -89,10 +165,10 @@ export const StyledMintSection = styled.div`
 
       .frame-img {
         position: absolute;
-        top: -40%;
-        left: -7%;
-        height: 350px;
-        width: 320px;
+        top: -10%;
+        left: -10%;
+        height: 300px;
+        width: 350px;
         object-fit: contain;
         z-index: 2;
       }
@@ -161,6 +237,33 @@ export const StyledMintSection = styled.div`
           border-radius: 20px;
           margin-top: 10px;
         }
+      }
+    }
+  }
+
+  .mint-right-section {
+    width: 50%;
+
+    .characters-gif {
+      position: relative;
+      width: 280px;
+      height: 245px;
+      margin-left: 50px;
+      z-index: 1;
+
+      .characters-gif-img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+      }
+
+      .clay-frame {
+        position: absolute;
+        top: -11%;
+        left: -2%;
+        height: 290px;
+        width: 290px;
+        object-fit: contain;
       }
     }
   }
