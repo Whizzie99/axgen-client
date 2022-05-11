@@ -1,5 +1,6 @@
 import Container from "../shared/Container/Container";
 import SectionTitle from "../shared/SectionTitle/SectionTitle";
+import Footer from "../shared/Footer/Footer";
 import { PlusIcon, MinusIcon } from "@heroicons/react/solid";
 import { faqs } from "../../data/faqs";
 import { StyledWrapper, StyledFaq, StyledFaqItem } from "./styles";
@@ -38,6 +39,7 @@ const Faq = () => {
           ))}
         </StyledFaq>
       </Container>
+      <Footer />
     </StyledWrapper>
   );
 };
