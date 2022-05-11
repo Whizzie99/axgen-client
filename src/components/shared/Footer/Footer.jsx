@@ -22,12 +22,22 @@ const Footer = () => {
             <p>follow us</p>
             <ul>
               <li>
-                <a href="#" target="_blank" noreferrer>
+                <a
+                  href="https://discord.gg/9GATD4mf84"
+                  target="_blank"
+                  noreferrer="true"
+                  rel="noreferrer"
+                >
                   <img src={discord} alt="" />
                 </a>
               </li>
               <li>
-                <a href="#" target="_blank" noreferrer>
+                <a
+                  href="https://twitter.com/axgennft"
+                  target="_blank"
+                  noreferrer="true"
+                  rel="noreferrer"
+                >
                   <img src={twitter} alt="" />
                 </a>
               </li>
