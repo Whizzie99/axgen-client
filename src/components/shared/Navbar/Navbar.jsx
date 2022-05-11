@@ -45,14 +45,14 @@ const Navbar = () => {
                 <Link to="#">wallet</Link>
               </li>
               <li>
-                <Link to="#">
+                <a target="_blank" href="#">
                   <img src={discordIcon} alt="discord" />
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="#">
+                <a target="_blank" href="#">
                   <img src={twitterIcon} alt="twitter" />
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
