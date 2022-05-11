@@ -85,7 +85,7 @@ const Home = () => {
             Etheruem network
           </p>
           <div className="mint-btn">
-            <Link to="#">mint now</Link>
+            <Link to="/mint">mint now</Link>
           </div>
         </StyledContent>
         <div className="character character-one">
