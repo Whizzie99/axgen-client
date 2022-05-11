@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const StyledCard = styled.div`
-  position: relative;
+  /* position: relative; */
   /* padding: 15px; */
   background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(2px);
-  height: 280px;
+  height: 480px;
   border-radius: 20px;
   border: 0.1rem solid #fff;
   box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 0.3rem #bc13fe,
@@ -21,7 +21,7 @@ export const StyledCard = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 170px;
+    height: 200px;
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -52,16 +52,16 @@ export const StyledCard = styled.div`
     }
 
     .card-description {
-      position: absolute;
-      bottom: -200%;
-      left: 0;
-      width: 100%;
-      padding: 20px 15px;
-      padding-top: 25px;
+      /* position: absolute; */
+      /* bottom: -200%; */
+      /* left: 0; */
+      /* width: 100%; */
+      padding: 10px 15px;
+      /* padding-top: 25px; */
       color: var(--white);
       font-weight: 200;
       font-size: 0.8em;
-      line-height: 1.5;
+      line-height: 1.3;
       background: linear-gradient(
         180deg,
         rgba(65, 59, 148, 0) 0%,
@@ -74,16 +74,17 @@ export const StyledCard = styled.div`
       backdrop-filter: blur(1px);
       border-bottom-left-radius: 20px;
       border-bottom-right-radius: 20px;
-      transition: all 0.4s ease;
+      height: 232px;
+      /* transition: all 0.4s ease; */
       /* z-index: 1; */
     }
   }
 
-  :hover {
+  /* :hover {
     .card-description {
       bottom: 0;
     }
-  }
+  } */
 
   /* keyframes */
   @keyframes glow {
