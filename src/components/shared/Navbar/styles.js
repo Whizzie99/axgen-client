@@ -6,7 +6,7 @@ export const StyledWrapper = styled.div`
   left: 0;
   width: 100%;
   background: rgba(32, 21, 94, 0.3);
-  /* padding: 15px; */
+  padding: 15px;
   z-index: 100;
 `;
 
@@ -88,7 +88,7 @@ export const StyledNav = styled.div`
     }
 
     .nav-right {
-      display: none;
+      display: flex;
       flex-direction: row;
 
       ul {

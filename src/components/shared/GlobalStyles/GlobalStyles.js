@@ -6,6 +6,7 @@ export const GlobalStyles = createGlobalStyle`
     --font-stack: 'Exo 2', sans-serif;
     --blue: #0282EA;
     --blue-2: #1b0d4d;
+    --blue-3: #301a68;
     --purple: #2F1967;
     --white: #fff;
     --black: #000;
