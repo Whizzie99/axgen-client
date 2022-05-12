@@ -7,7 +7,7 @@ export const StyledWrapper = styled.div`
   width: 100%;
   background: rgba(32, 21, 94, 0.3);
   padding: 15px;
-  z-index: 100;
+  z-index: 999;
 `;
 
 export const StyledNav = styled.div`
@@ -84,6 +84,12 @@ export const StyledNav = styled.div`
           border-radius: 20px;
         }
       }
+    }
+
+    &.active {
+      display: block;
+      animation-name: modalopen;
+      animation-duration: 1s;
     }
   }
 

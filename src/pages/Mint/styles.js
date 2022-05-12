@@ -10,7 +10,7 @@ export const StyledWrapper = styled.div`
     #019ffa 0%,
     #0172e1 73.96%
   );
-  height: 100vh;
+  /* height: 100vh; */
   /* overflow: hidden; */
 
   .light-rays {
@@ -24,7 +24,7 @@ export const StyledWrapper = styled.div`
 
   .floor-img {
     position: absolute;
-    bottom: -35%;
+    bottom: -32%;
     left: 0;
     height: 300px;
     width: 100%;
@@ -100,6 +100,14 @@ export const StyledWrapper = styled.div`
       width: 25px;
     }
   }
+
+  @media screen and (min-width: 1200px) {
+    height: 1000vh;
+
+    .floor-img {
+      bottom: -35%;
+    }
+  }
 `;
 
 export const StyledContent = styled.div`
@@ -110,7 +118,7 @@ export const StyledContent = styled.div`
     text-transform: uppercase;
     font-size: 4em;
     font-weight: 700;
-    margin-top: 15%;
+    margin-top: 35%;
     letter-spacing: 0.06em;
     text-shadow: var(--text-shadow);
     text-align: center;
@@ -139,6 +147,12 @@ export const StyledContent = styled.div`
       border-radius: 20px;
     }
   }
+
+  @media screen and (min-width: 1200px) {
+    h1 {
+      margin-top: 15%;
+    }
+  }
 `;
 
 export const StyledMintSection = styled.div`
@@ -148,8 +162,8 @@ export const StyledMintSection = styled.div`
 
   .mint-left-section {
     display: flex;
-    justify-content: flex-start;
-    width: 50%;
+    justify-content: center;
+    width: 100%;
     /* padding: 50px 0; */
 
     .mint-counter {
@@ -159,14 +173,14 @@ export const StyledMintSection = styled.div`
       justify-content: center;
       align-items: center;
       background: var(--white);
-      padding: 20px;
-      width: 80%;
+      padding: 40px 20px;
+      width: 40%;
       z-index: 998;
 
       .frame-img {
         position: absolute;
         top: -10%;
-        left: -10%;
+        left: -14%;
         height: 300px;
         width: 350px;
         object-fit: contain;
@@ -242,6 +256,7 @@ export const StyledMintSection = styled.div`
   }
 
   .mint-right-section {
+    display: none;
     width: 50%;
 
     .characters-gif {
@@ -265,6 +280,26 @@ export const StyledMintSection = styled.div`
         width: 290px;
         object-fit: contain;
       }
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .mint-left-section {
+      width: 50%;
+      justify-content: flex-start;
+
+      .mint-counter {
+        width: 80%;
+        padding: 20px;
+
+        .frame-img {
+          left: -10%;
+        }
+      }
+    }
+
+    .mint-right-section {
+      display: block;
     }
   }
 `;

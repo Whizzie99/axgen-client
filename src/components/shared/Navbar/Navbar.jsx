@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { MenuIcon } from "@heroicons/react/solid";
 import { XIcon } from "@heroicons/react/solid";
 import Container from "../Container/Container";
+import { menuItems } from "../../../data/menuItems";
 import { StyledWrapper, StyledNav } from "./styles";
 
 import logo from "../../../assets/icons/logo.png";
@@ -16,6 +17,9 @@ const Navbar = () => {
     setActive(!active);
   };
 
+  const hideMenu = () => {
+    setActive(false);
+  };
   return (
     <StyledWrapper>
       <Container>
@@ -25,26 +29,13 @@ const Navbar = () => {
               <img src={logo} alt="logo" />
             </Link>
           </div>
-          <div className="nav-right">
+          <div className={`nav-right ${active && "active"}`}>
             <ul>
-              <li>
-                <Link to="#">home</Link>
-              </li>
-              <li>
-                <Link to="#">staking</Link>
-              </li>
-              <li>
-                <Link to="#">about</Link>
-              </li>
-              <li>
-                <Link to="#">roadmap</Link>
-              </li>
-              <li>
-                <Link to="#">FAQ</Link>
-              </li>
-              <li>
-                <Link to="/mint">mint</Link>
-              </li>
+              {menuItems.map((menuItem, i) => (
+                <li key={i} onClick={hideMenu}>
+                  <Link to={menuItem.path}>{menuItem.title}</Link>
+                </li>
+              ))}
             </ul>
             <ul>
               <li className="nav-btn">

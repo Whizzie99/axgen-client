@@ -48,4 +48,14 @@ export const GlobalStyles = createGlobalStyle`
     transform: translateY(-10px);
   }
 }
+
+@keyframes modalopen {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
 `;
