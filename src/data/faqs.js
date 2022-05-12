@@ -11,7 +11,7 @@ export const faqs = [
   {
     question: "How many will I be able to min at a time?",
     answer:
-      "You will be able to mint up to 3 axgen during the pre sale. On the public sale date, you will be able to mimt up tp 8!",
+      "You will be able to mint up to 3 axgen during the pre sale. On the public sale date, you will be able to mint up tp 8!",
   },
   {
     question: "What will the min price be?",
