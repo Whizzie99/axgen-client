@@ -10,21 +10,22 @@ export const StyledWrapper = styled.div`
     #019ffa 0%,
     #0172e1 73.96%
   );
-  /* height: 100vh; */
+  height: 100vh;
   /* overflow: hidden; */
 
   .light-rays {
     position: absolute;
     top: 0;
-    left: 0;
-    height: 100%;
+    left: -22%;
+    height: 100vh;
+    width: 90vw;
     transform: translateX(30%);
     object-fit: contain;
   }
 
   .floor-img {
     position: absolute;
-    bottom: -32%;
+    bottom: -8%;
     left: 0;
     height: 300px;
     width: 100%;
@@ -104,6 +105,15 @@ export const StyledWrapper = styled.div`
   @media screen and (min-width: 1200px) {
     height: 100vh;
 
+    .light-rays {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      transform: translateX(30%);
+      object-fit: contain;
+    }
+
     .floor-img {
       bottom: -35%;
     }
@@ -157,8 +167,8 @@ export const StyledContent = styled.div`
 
 export const StyledMintSection = styled.div`
   display: flex;
-  width: 700px;
-  margin-top: 70px;
+  width: 100%;
+  margin-top: 150px;
 
   .mint-left-section {
     display: flex;
@@ -174,7 +184,7 @@ export const StyledMintSection = styled.div`
       align-items: center;
       background: var(--white);
       padding: 40px 20px;
-      width: 40%;
+      width: 70%;
       z-index: 998;
 
       .frame-img {
@@ -284,6 +294,7 @@ export const StyledMintSection = styled.div`
   }
 
   @media screen and (min-width: 1200px) {
+    width: 700px;
     .mint-left-section {
       width: 50%;
       justify-content: flex-start;

@@ -1,4 +1,5 @@
 import Carousel from "react-grid-carousel";
+// import MyDot from "./CustomDot";
 
 import { StyledWrapper } from "./styles";
 
@@ -46,6 +47,7 @@ const AboutCarousel = () => {
             cols: 1,
             rows: 1,
             gap: 0,
+            showDots: true,
           },
         ]}
         mobileBreakpoint={767}
