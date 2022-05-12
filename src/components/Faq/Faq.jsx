@@ -23,7 +23,11 @@ const Faq = () => {
         <SectionTitle title="FAQ" />
         <StyledFaq>
           {faqs.map((faq, index) => (
-            <StyledFaqItem key={index}>
+            <StyledFaqItem
+              key={index}
+              data-aos="fade-up"
+              data-aos-duration="1100"
+            >
               <div className="faq-top" onClick={() => toggle(index)}>
                 <h3 className="faq-question">{faq.question}</h3>
                 <span className="faq-icon">
