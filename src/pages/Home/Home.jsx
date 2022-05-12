@@ -79,12 +79,14 @@ const Home = () => {
       <StyledWrapper>
         <img src={rays} alt="" className="light-rays" />
         <StyledContent>
-          <h1 className="hero-text">axgen</h1>
-          <p>
+          <h1 className="hero-text" data-aos="fade-up" data-aos-duration="1100">
+            axgen
+          </h1>
+          <p data-aos="fade-up" data-aos-duration="1100">
             The lengendary creature that regenerates. Living eternally on the
             Etheruem network
           </p>
-          <div className="mint-btn">
+          <div className="mint-btn" data-aos="fade-up" data-aos-duration="1100">
             <Link to="/mint">mint now</Link>
           </div>
         </StyledContent>

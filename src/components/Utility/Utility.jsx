@@ -17,7 +17,7 @@ const Utility = () => {
       <Container>
         <StyledUtilities>
           <SectionTitle title="utility" />
-          <StyledCarousel>
+          <StyledCarousel data-aos="fade-up" data-aos-duration="1100">
             <Swiper
               modules={[Navigation]}
               spaceBetween={30}

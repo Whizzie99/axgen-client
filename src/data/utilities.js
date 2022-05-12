@@ -11,7 +11,8 @@ import community from "../assets/images/utilities/community.png";
 export const utilities = [
   {
     title: "axgen merch",
-    description: "",
+    description:
+      "NFT holders would get exclusive discount and access to our merch",
     image: merch,
   },
   {
@@ -51,6 +52,12 @@ export const utilities = [
     image: game,
   },
   {
+    title: "axgen game 2",
+    description:
+      "NFT holders will get credits on the game to feed and grow your Axolotyl faster and healthier. Can share/gift to other holders.",
+    image: game,
+  },
+  {
     title: "donations",
     description:
       "Axgen will be involved in charities to help advance stem cell research.",
@@ -61,11 +68,5 @@ export const utilities = [
     description:
       "Axgen will be involved in charities to help advance stem cell research.",
     image: community,
-  },
-  {
-    title: "axgen game",
-    description:
-      "NFT holders will get credits on the game to feed and grow your Axolotyl faster and healthier. Can share/gift to other holders.",
-    image: game,
   },
 ];

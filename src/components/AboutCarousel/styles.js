@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledWrapper = styled.div`
-  margin-top: 20px;
+  margin-top: 100px;
   /* width: 80%;
   margin-left: 20%; */
   .img-box {

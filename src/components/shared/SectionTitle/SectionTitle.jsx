@@ -4,7 +4,9 @@ import { StyledWrapper } from "./styles";
 const SectionTitle = ({ title }) => {
   return (
     <StyledWrapper>
-      <h2 className="section-title">{title}</h2>
+      <h2 className="section-title" data-aos="fade-up" data-aos-duration="1100">
+        {title}
+      </h2>
     </StyledWrapper>
   );
 };

@@ -32,7 +32,7 @@ const carouselImageArray = [
 
 const AboutCarousel = () => {
   return (
-    <StyledWrapper>
+    <StyledWrapper data-aos="fade-up" data-aos-duration="1100">
       <Carousel
         cols={2}
         rows={2}

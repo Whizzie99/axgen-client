@@ -53,7 +53,7 @@ export const StyledCard = styled.div`
 
     .card-description {
       display: flex;
-      align-items: flex-end;
+      align-items: center;
       /* position: absolute; */
       /* bottom: -200%; */
       /* left: 0; */

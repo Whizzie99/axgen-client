@@ -102,7 +102,7 @@ export const StyledWrapper = styled.div`
   }
 
   @media screen and (min-width: 1200px) {
-    height: 1000vh;
+    height: 100vh;
 
     .floor-img {
       bottom: -35%;

@@ -156,6 +156,27 @@ export const StyledWrapper = styled.div`
       left: 15%;
     }
   }
+
+  @media screen and (max-width: 765px) {
+    .school-of-fishes-left {
+      width: 200px;
+
+      img {
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+
+    .jelly-fish-two,
+    .jelly-fish-one {
+      width: 200px;
+
+      img {
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+  }
 `;
 
 export const StyledRoadMapSection = styled.div`
@@ -171,7 +192,7 @@ export const StyledRoadMapSection = styled.div`
       /* flex-direction: column; */
       flex-direction: row;
       align-items: center;
-      margin: 15px 0;
+      margin: 30px 0;
 
       .road-map-left {
         /* width: 50%; */

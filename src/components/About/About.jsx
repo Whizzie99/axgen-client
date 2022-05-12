@@ -55,10 +55,10 @@ const About = () => {
       <Container>
         <StyledContent>
           <div className="left-content">
-            <h1>
+            <h1 data-aos="fade-right" data-aos-duration="1100">
               about <br /> axgen
             </h1>
-            <p>
+            <p data-aos="fade-up" data-aos-duration="1100">
               Scientists are currently investigating how organisms like the
               Axolotl are able to regenerate their limbs and escape age-related
               decline. These studies provide a future where mankind can
