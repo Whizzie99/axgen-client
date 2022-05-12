@@ -5,7 +5,7 @@ export const StyledWrapper = styled.div`
   /* width: 80%;
   margin-left: 20%; */
   .img-box {
-    height: 200px;
+    height: 250px;
     /* width: 213px; */
 
     img {
@@ -15,9 +15,17 @@ export const StyledWrapper = styled.div`
     }
   }
 
+  /* .jWpUJH {
+    display: block;
+  } */
+
   @media screen and (min-width: 1200px) {
     width: 80%;
     margin-left: 20%;
     margin-top: 0;
+
+    .img-box {
+      height: 200px;
+    }
   }
 `;

@@ -90,12 +90,14 @@ const Mint = () => {
   return (
     <StyledWrapper>
       <StyledContent>
-        <h1>axgen</h1>
-        <p>
+        <h1 data-aos="fade-up" data-aos-duration="1100">
+          axgen
+        </h1>
+        <p data-aos="fade-up" data-aos-duration="1100">
           The lengendary creature that regenerates. Living eternally on the
           Etheruem network
         </p>
-        <div className="mint-btn">
+        <div data-aos="fade-up" data-aos-duration="1100" className="mint-btn">
           <Link to="#">mint now</Link>
         </div>
       </StyledContent>
