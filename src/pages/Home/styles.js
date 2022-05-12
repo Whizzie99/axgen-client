@@ -15,10 +15,10 @@ export const StyledWrapper = styled.div`
 
   .light-rays {
     position: absolute;
-    top: 0;
+    top: -22%;
     left: 0;
     height: 100%;
-    transform: translateX(30%);
+    /* transform: translateX(30%); */
     object-fit: contain;
   }
 
@@ -140,6 +140,12 @@ export const StyledWrapper = styled.div`
     }
   }
 
+  @media screen and (max-width: 800px) {
+    .light-rays {
+      width: 90vw;
+    }
+  }
+
   @media screen and (min-width: 1200px) {
     display: block;
 
@@ -152,6 +158,15 @@ export const StyledWrapper = styled.div`
     .character-one,
     .character-three {
       display: block;
+    }
+
+    .light-rays {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      transform: translateX(30%);
+      object-fit: contain;
     }
   }
 `;

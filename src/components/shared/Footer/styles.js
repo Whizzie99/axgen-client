@@ -28,6 +28,7 @@ export const StyledFooter = styled.div`
     align-items: center;
 
     p {
+      display: none;
       font-size: 0.9em;
       font-weight: 200;
       text-transform: capitalize;
@@ -47,6 +48,12 @@ export const StyledFooter = styled.div`
       li:nth-child(1) {
         margin-right: 10px;
       }
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .social-handles p {
+      display: block;
     }
   }
 `;

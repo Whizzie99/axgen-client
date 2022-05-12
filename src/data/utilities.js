@@ -47,7 +47,7 @@ export const utilities = [
   {
     title: "axgen game",
     description:
-      "We would LOVE to launch a game on the website, and possibly IOS app in the future. We need the community backing to reach this point. You will be able to start your journey as a baby Axolotyl. Feed your Ax and watch him grow. But be careful! If you don't feed it in X amount of days... he may or may not decay into a skeletal version. NFT holders will get credits on the game to feed and grow your Axolotyl faster and healthier. Can share/gift to other holders.",
+      "We would LOVE to launch a game on the website, and possibly IOS app in the future. We need the community backing to reach this point. You will be able to start your journey as a baby Axolotyl. Feed your Ax and watch him grow. But be careful! If you don't feed it in X amount of days... he may or may not decay into a skeletal version.",
     image: game,
   },
   {
@@ -61,5 +61,11 @@ export const utilities = [
     description:
       "Axgen will be involved in charities to help advance stem cell research.",
     image: community,
+  },
+  {
+    title: "axgen game",
+    description:
+      "NFT holders will get credits on the game to feed and grow your Axolotyl faster and healthier. Can share/gift to other holders.",
+    image: game,
   },
 ];

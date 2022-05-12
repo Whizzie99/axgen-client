@@ -22,6 +22,7 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: var(--font-stack);
+    /* border: 1px solid red; */
   }
 
   body{
@@ -46,5 +47,15 @@ export const GlobalStyles = createGlobalStyle`
   60% {
     transform: translateY(-10px);
   }
+}
+
+@keyframes modalopen {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
 }
 `;

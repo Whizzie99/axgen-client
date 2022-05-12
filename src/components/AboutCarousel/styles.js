@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const StyledWrapper = styled.div`
+  margin-top: 20px;
   /* width: 80%;
   margin-left: 20%; */
   .img-box {
@@ -17,5 +18,6 @@ export const StyledWrapper = styled.div`
   @media screen and (min-width: 1200px) {
     width: 80%;
     margin-left: 20%;
+    margin-top: 0;
   }
 `;
