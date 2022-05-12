@@ -168,7 +168,8 @@ export const StyledRoadMapSection = styled.div`
 
     .road-map-item {
       display: flex;
-      flex-direction: column;
+      /* flex-direction: column; */
+      flex-direction: row;
       align-items: center;
       margin: 15px 0;
 
@@ -245,9 +246,70 @@ export const StyledRoadMapSection = styled.div`
   }
 
   @media screen and (max-width: 767px) {
-    .road-map-item .road-map-left {
+    /* .road-map-item .road-map-left {
       order: 1;
       margin-bottom: 15px;
+    } */
+
+    .road-map-item .road-map-left .road-map-description p {
+      font-size: 0.8em;
+    }
+
+    .road-map-item .road-map-left {
+      width: 20%;
+    }
+
+    .road-map-item .road-map-left {
+      width: 80%;
+    }
+
+    .road-map-item .road-map-bubble {
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+
+    .road-map-item:nth-child(1) .road-map-bubble {
+      height: 50px;
+      width: 50px;
+      font-size: 0.6em;
+    }
+
+    .road-map-item:nth-child(2) .road-map-bubble {
+      height: 70px;
+      width: 70px;
+      font-size: 0.6em;
+    }
+
+    .road-map-item:nth-child(3) .road-map-bubble {
+      height: 100px;
+      width: 100px;
+      /* font-size: 0.6em; */
+    }
+
+    .road-map-item:nth-child(4) .road-map-bubble {
+      height: 120px;
+      width: 120px;
+      /* font-size: 0.6em; */
+    }
+
+    .road-map-item:nth-child(5) .road-map-bubble {
+      height: 140px;
+      width: 140px;
+      /* font-size: 0.6em; */
+    }
+
+    .road-map-item:nth-child(6) .road-map-bubble {
+      height: 160px;
+      width: 160px;
+      /* font-size: 0.6em; */
+    }
+
+    .road-map-item:nth-child(7) .road-map-bubble {
+      height: 180px;
+      width: 180px;
     }
   }
 

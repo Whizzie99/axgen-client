@@ -74,13 +74,13 @@ export const StyledContent = styled.div`
     /* width: 50%; */
 
     h1 {
-      font-size: 2.8em;
+      font-size: 2.3em;
       text-transform: uppercase;
       line-height: 1.5;
     }
 
     p {
-      font-size: 1em;
+      font-size: 0.9em;
       font-style: italic;
       margin-top: 10px;
       line-height: 1.5;
@@ -97,6 +97,14 @@ export const StyledContent = styled.div`
     .left-content,
     .right-content {
       width: 50%;
+    }
+
+    .left-content h1 {
+      font-size: 2.8em;
+    }
+
+    .left-content p {
+      font-size: 1em;
     }
   }
 `;

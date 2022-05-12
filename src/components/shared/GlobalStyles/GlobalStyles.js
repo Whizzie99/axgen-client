@@ -22,6 +22,7 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: var(--font-stack);
+    /* border: 1px solid red; */
   }
 
   body{

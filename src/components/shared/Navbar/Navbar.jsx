@@ -1,4 +1,7 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import { MenuIcon } from "@heroicons/react/solid";
+import { XIcon } from "@heroicons/react/solid";
 import Container from "../Container/Container";
 import { StyledWrapper, StyledNav } from "./styles";
 
@@ -7,14 +10,20 @@ import discordIcon from "../../../assets/icons/discord.png";
 import twitterIcon from "../../../assets/icons/twitter.png";
 
 const Navbar = () => {
+  const [active, setActive] = useState(false);
+
+  const toggleMenu = () => {
+    setActive(!active);
+  };
+
   return (
     <StyledWrapper>
       <Container>
         <StyledNav>
           <div className="nav-left">
-            <div className="logo">
+            <Link to="/" className="logo">
               <img src={logo} alt="logo" />
-            </div>
+            </Link>
           </div>
           <div className="nav-right">
             <ul>
@@ -34,7 +43,7 @@ const Navbar = () => {
                 <Link to="#">FAQ</Link>
               </li>
               <li>
-                <Link to="#">mint</Link>
+                <Link to="/mint">mint</Link>
               </li>
             </ul>
             <ul>
@@ -45,16 +54,29 @@ const Navbar = () => {
                 <Link to="#">wallet</Link>
               </li>
               <li>
-                <a target="_blank" href="#">
-                  <img src={discordIcon} alt="discord" />
+                <a
+                  href="https://discord.gg/9GATD4mf84"
+                  target="_blank"
+                  noreferrer="true"
+                  rel="noreferrer"
+                >
+                  <img src={discordIcon} alt="" />
                 </a>
               </li>
               <li>
-                <a target="_blank" href="#">
-                  <img src={twitterIcon} alt="twitter" />
+                <a
+                  href="https://twitter.com/axgennft"
+                  target="_blank"
+                  noreferrer="true"
+                  rel="noreferrer"
+                >
+                  <img src={twitterIcon} alt="" />
                 </a>
               </li>
             </ul>
+          </div>
+          <div className="hamburger-menu" onClick={toggleMenu}>
+            {active ? <XIcon /> : <MenuIcon />}
           </div>
         </StyledNav>
       </Container>
